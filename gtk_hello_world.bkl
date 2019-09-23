@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<makefile>
+	<exe id="gtk_hello_world">
+		<sources>main.c</sources>
+		<cflags>`pkg-config --cflags gtk+-3.0`</cflags>
+		<ldflags>`pkg-config --libs gtk+-3.0`</ldflags>
+	</exe>
+</makefile>
